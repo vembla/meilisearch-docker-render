@@ -1,5 +1,6 @@
 services:
 - type: web
+  region: frankfurt
   name: meili
   env: docker
   repo: https://github.com/Amrit0991/meilisearch-docker-render.git
